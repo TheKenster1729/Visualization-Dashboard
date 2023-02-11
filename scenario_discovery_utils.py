@@ -24,6 +24,7 @@ import streamlit as st
 from plotly.subplots import make_subplots
 import plotly.graph_objects as go
 from colour import Color
+import openpyxl
 
 class GlobalProperties:
     def __init__(self):
